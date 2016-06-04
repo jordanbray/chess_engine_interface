@@ -1,0 +1,25 @@
+[package]
+name = "chess_uci"
+version = "0.0.1"
+authors = ["Jordan Bray <jordanbray@gmail.com>"]
+description = "This package talks the UCI language.  It allows you to implement a UCI client (chess engine), or a UCI server (chess UI)."
+homepage = "https://github.com/jordanbray/chess_uci"
+repository = "https://github.com/jordanbray/chess_uci"
+readme = "README.md"
+keywords = ["chess", "UCI"]
+license = "LGPL-3.0+"
+
+[profile.release]
+opt-level = 3
+debug = false
+
+[profile.dev]
+opt-level = 3
+debug = true
+
+[profile.test]
+opt-level = 3
+
+[dependencies]
+chess = "0.2.0"
+
