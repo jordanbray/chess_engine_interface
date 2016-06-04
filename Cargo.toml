@@ -1,12 +1,12 @@
 [package]
-name = "chess_uci"
+name = "chess_engine_interface"
 version = "0.0.1"
 authors = ["Jordan Bray <jordanbray@gmail.com>"]
-description = "This package talks the UCI language.  It allows you to implement a UCI client (chess engine), or a UCI server (chess UI)."
-homepage = "https://github.com/jordanbray/chess_uci"
-repository = "https://github.com/jordanbray/chess_uci"
+description = "This package talks the UCI and XBoard language.  It allows you to implement a UCI/XBoard client (chess engine), or a UCI/XBoard server (chess UI)."
+homepage = "https://github.com/jordanbray/chess_engine_interface"
+repository = "https://github.com/jordanbray/chess_engine_interface"
 readme = "README.md"
-keywords = ["chess", "UCI"]
+keywords = ["chess", "UCI", "XBoard", "WinBoard"]
 license = "LGPL-3.0+"
 
 [profile.release]
